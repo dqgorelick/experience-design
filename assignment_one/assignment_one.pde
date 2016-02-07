@@ -28,6 +28,9 @@ void draw() {
   if (marker == -1) {
     direction = true;
   }
+  if (count % 20 == 0 ) {
+      println(count);
+  }
   if (count % rate == 0) {
     marker = direction ? ++marker : --marker;
   }
