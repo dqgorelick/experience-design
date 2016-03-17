@@ -1,4 +1,4 @@
-int rate = 20; //speed of the iterations 
+int rate = 5; //speed of the iterations 
 int shapes = 17; // change based on number of shapes
 float color_inc = TWO_PI/(2000); // change rate of background of background color
 int count = 0;
